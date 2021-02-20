@@ -148,6 +148,7 @@ y = df_train['price_range']
 cv = ShuffleSplit(n_splits=10, test_size=0.2, random_state=0)
 
 
+# Decison Tree
 
 # title = "Learning Curves (Decision Trees)"
 # # cv = ShuffleSplit(n_splits=10, test_size=0.2, random_state=0)

@@ -250,5 +250,5 @@ print("starting code")
 #                     cv=cv, n_jobs=20)
 
 
-# plt.savefig("charts/boosting_sample_"+str(10))
+# plt.savefig("charts/boosting_final)
 # plt.clf()
