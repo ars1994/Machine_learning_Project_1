@@ -167,11 +167,10 @@ print("starting code")
 # fig, axes = plt.subplots(1, 3, figsize=(20, 5))
 
 # title = "Learning Curves (Decision Trees)"
-# # cv = ShuffleSplit(n_splits=10, test_size=0.2, random_state=0)
 
 # clf = tree.DecisionTreeClassifier(criterion='entropy', min_samples_leaf=1, max_depth=18)
 # plot_learning_curve(clf, title, X, y, axes=axes, ylim=(0.7, 1.01),
-#                     cv=cv, n_jobs=20)
+#                     cv=cv, n_jobs=-1)
 
 
 # plt.savefig("charts/DT_sample_final")
@@ -185,7 +184,6 @@ print("starting code")
 # fig, axes = plt.subplots(1, 3, figsize=(20, 5))
 
 # title = "Learning Curves (Nural Net - adam)"
-# # cv = ShuffleSplit(n_splits=10, test_size=0.2, random_state=0)
 
 # clf = clf = MLPClassifier(solver='adam', hidden_layer_sizes=(100,), random_state=1, max_iter=100)
 # plot_learning_curve(clf, title, X, y, axes=axes, ylim=(0.7, 1.01),
@@ -201,11 +199,10 @@ print("starting code")
 # fig, axes = plt.subplots(1, 3, figsize=(20, 5))
 
 # title = "Learning Curves (KNN)"
-# # cv = ShuffleSplit(n_splits=10, test_size=0.2, random_state=0)
 
 # clf = KNeighborsClassifier(n_neighbors = 1)
 # plot_learning_curve(clf, title, X, y, axes=axes, ylim=(0.7, 1.01),
-#                     cv=cv, n_jobs=20)
+#                     cv=cv, n_jobs=-1)
 
 
 # plt.savefig("charts/KNN_final")
@@ -219,19 +216,19 @@ print("starting code")
 
 # clf = svm.SVC(kernel='linear')
 # plot_learning_curve(clf, title, X, y, axes=axes[:, 0], ylim=(0.7, 1.01),
-#                     cv=cv, n_jobs=20)
+#                     cv=cv, n_jobs=-1)
 
 # title = "Learning Curves (SVM - poly)"
 
 # clf = svm.SVC(kernel='poly')
 # plot_learning_curve(clf, title, X, y, axes=axes[:, 1], ylim=(0.7, 1.01),
-#                     cv=cv, n_jobs=20)
+#                     cv=cv, n_jobs=-1)
 
 # title = "Learning Curves (SVM - rbf)"
 
 # clf = svm.SVC(kernel='rbf')
 # plot_learning_curve(clf, title, X, y, axes=axes[:, 2], ylim=(0.7, 1.01),
-#                     cv=cv, n_jobs=20)
+#                     cv=cv, n_jobs=-1)
 
 
 # plt.savefig("charts/SVM")
@@ -243,11 +240,10 @@ print("starting code")
 # fig, axes = plt.subplots(1, 3, figsize=(20, 5))
 
 # title = "Learning Curves (boosting)"
-# # cv = ShuffleSplit(n_splits=10, test_size=0.2, random_state=0)
 
 # clf = GradientBoostingClassifier(n_estimators=60, learning_rate=0.3, max_depth=2, random_state=0, min_samples_leaf=5)
 # plot_learning_curve(clf, title, X, y, axes=axes, ylim=(0.7, 1.01),
-#                     cv=cv, n_jobs=20)
+#                     cv=cv, n_jobs=-1)
 
 
 # plt.savefig("charts/boosting_final)

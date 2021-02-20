@@ -151,7 +151,6 @@ cv = ShuffleSplit(n_splits=10, test_size=0.2, random_state=0)
 # Decison Tree
 
 # title = "Learning Curves (Decision Trees)"
-# # cv = ShuffleSplit(n_splits=10, test_size=0.2, random_state=0)
 
 # clf = tree.DecisionTreeClassifier(criterion='entropy', min_samples_leaf=8, max_depth=13)
 # plot_learning_curve(clf, title, X, y, axes=axes, ylim=(0.7, 1.01),
@@ -167,7 +166,6 @@ cv = ShuffleSplit(n_splits=10, test_size=0.2, random_state=0)
 # fig, axes = plt.subplots(1, 3, figsize=(20, 5))
 
 # title = "Learning Curves (Nural Net - adam)"
-# # cv = ShuffleSplit(n_splits=10, test_size=0.2, random_state=0)
 
 # clf = clf = MLPClassifier(solver='adam', hidden_layer_sizes=(100,), random_state=1, max_iter=400, beta_2=0.870)
 # plot_learning_curve(clf, title, X, y, axes=axes, ylim=(0.3, 1.01),
