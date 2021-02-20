@@ -1,0 +1,46 @@
+
+Mobile
+
+Decision Tree Classifier
+0.8333333333333334
+
+Neural Net Classifier
+0.7166666666666667
+
+Gradient Boosting Classifier
+0.9133333333333333
+
+Support Vector Machine - kernel = linear
+0.96
+
+Support Vector Machine - kernel = poly
+0.9516666666666667
+
+kNN
+0.935
+
+MNIST
+
+Decision Tree Classifier
+0.8702525252525253
+0.9569992833213887
+
+Neural Net Classifier
+0.9752020202020202
+0.9918165302755045
+
+Gradient Boosting Classifier
+0.9274242424242424
+0.9401990033167219
+
+Support Vector Machine - kernel = rbf
+0.9758585858585859
+0.9847330788846481
+
+Support Vector Machine - kernel = poly
+0.9737373737373738
+0.982466374439574
+
+kNN
+0.9704545454545455
+0.9902498374972917

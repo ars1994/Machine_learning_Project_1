@@ -1,0 +1,50 @@
+DT on mobile data
+
+Fitting 10 folds for each of 90 candidates, totalling 900 fits
+{'criterion': 'entropy', 'max_depth': 7, 'min_samples_leaf': 4}
+DecisionTreeClassifier(criterion='entropy', max_depth=7, min_samples_leaf=4)
+0.85
+
+
+DT on MNIST
+
+Fitting 10 folds for each of 90 candidates, totalling 900 fits
+{'criterion': 'entropy', 'max_depth': 9, 'min_samples_leaf': 2}
+DecisionTreeClassifier(criterion='entropy', max_depth=9, min_samples_leaf=2)
+0.8503445202452529
+
+
+NN on Mobile
+
+{'hidden_layer_sizes': (50,), 'max_iter': 600, 'solver': 'adam'}
+MLPClassifier(hidden_layer_sizes=(50,), max_iter=600)
+0.6201492537313433
+
+NN on MNIST
+
+{'hidden_layer_sizes': (90,), 'max_iter': 900, 'solver': 'adam'}
+MLPClassifier(hidden_layer_sizes=(90,), max_iter=900)
+0.9522388059701493
+
+knn on mobile 
+
+Fitting 10 folds for each of 10 candidates, totalling 100 fits
+{'n_neighbors': 9}
+KNeighborsClassifier(n_neighbors=9)
+0.928358208955224
+
+knn on minst
+
+Fitting 10 folds for each of 10 candidates, totalling 100 fits
+{'n_neighbors': 1}
+KNeighborsClassifier(n_neighbors=1)
+0.9516583747927031
+
+
+boosing on mobile
+
+{'learning_rate': 0.7, 'n_estimators': 30}
+GradientBoostingClassifier(learning_rate=0.7, max_depth=2, min_samples_leaf=5,
+                           n_estimators=30)
+0.8962686567164179
+
